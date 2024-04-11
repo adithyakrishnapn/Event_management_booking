@@ -1,0 +1,138 @@
+body{
+    margin: 0%;
+    background-color: black;
+}
+h1{
+    font-weight: 800;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(111, 157, 255);
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    float: right;
+    text-align: right;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+padding: 10px;
+text-decoration: none;
+font-weight: 800;
+}
+.active{
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 134, 255);
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+.box{
+    background-color: rgb(47, 134, 255);
+    padding: 30px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.boxed{
+    background-color: rgb(47, 134, 255);
+    padding: 30px;
+    margin-top: 40px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input[type='submit']{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    background-color: rgb(47, 134, 255);
+    border-radius: 0.2cm;
+    border: none;
+    padding: 10px;
+}
+input[type='text'],input[type='Date']{
+    width: 100%;
+}
+
+.box p a{
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+}
+.box p{
+    width: 100%;
+    text-align: center;
+}
+.left p{
+    font-weight: 800;
+}
+
+.sample{
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    background-color: rgb(0, 255, 119);
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+tr,th,td{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+th{
+    color: green;
+}
+button{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    background-color: rgb(0, 255, 119);
+    border: none;
+    padding: 10px;
+}
+.cls{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sty{
+    color: white;
+    background-color: black;
+    height: 400px;
+    border: none;
+}
+
+.sty p{
+    background-color: black;
+}
+
+form input[type="submit"]{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 0.1cm;
+}
+.mainobject{
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
